@@ -3,9 +3,9 @@ pipeline {
     stages {
 
 
-        stage('') { 
+        stage('clean') { 
             steps {
-                sh 'mvn clean 'c
+                sh 'mvn clean'
             }
         }
        stage('v') { 
